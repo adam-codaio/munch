@@ -1,3 +1,7 @@
 .navbar-default.opaque {
   background-color: #222;
 }
+.img-responsive.square {
+	height:139px;
+	width:139px;
+}
