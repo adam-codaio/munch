@@ -2,6 +2,6 @@
   background-color: #222;
 }
 .img-responsive.square {
-	height:139px;
-	width:139px;
+	height:100%;
+	width:100%;
 }
