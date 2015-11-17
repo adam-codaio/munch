@@ -9,6 +9,8 @@
 .btn-xl {
     background-color: #40BA91;
     border-color: #40BA91;
+    text-transform: capitalize;
+    font-weight:400;
 }
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
@@ -58,4 +60,47 @@ section {
 ::selection {
     text-shadow: none;
     background: #FF9900;
+}
+
+header .intro-text .intro-heading {
+	margin-bottom: 25px;
+}
+
+.text-primary {
+  color: #FF9900;
+}
+
+.timeline>li .timeline-image {
+    background-color: #FF9900;
+}
+
+a {
+    color: #FF9900;
+}
+
+a:hover, a:focus, a:active, a.active {
+    color: #FF9900;
+}
+
+.navbar-default .nav li a {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+header .intro-text .intro-lead-in {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight:400;
+  margin-bottom: 40px;
+}
+header .intro-text .intro-heading {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 68px;
 }
