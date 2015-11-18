@@ -146,14 +146,22 @@ body {
   margin: 0 0 15px;
   right: 0;
 }
+
+.img-border {
+
+}
+
 #process .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+
+  border: 1px solid #CCCCCC;
+  border-bottom: none;
 }
 #process .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: #FF9900;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -185,9 +193,12 @@ body {
 #process .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #F4F5F7;
   text-align: center;
   padding: 25px;
+
+  border: 1px solid #CCCCCC;
+  border-top: none;
 }
 #process .portfolio-item .portfolio-caption h4 {
   text-transform: none;
