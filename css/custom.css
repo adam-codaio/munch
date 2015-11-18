@@ -126,3 +126,109 @@ body {
 .text-muted {
     color: #8C868E;
 }
+
+.bg-light-gray {
+  background-color: #F4F5F7;
+}
+.bg-darkest-gray {
+  background-color: #8C868E;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #FF9900;
+    border-color: #FF9900;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #FF9900;
+}
+
+#process .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#process .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#process .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#process .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+#process .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#process .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#process .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#process .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+#process .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+#process .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+#process .portfolio-item .portfolio-caption p {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+#process * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #process .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+.modal-dialog {
+  position: relative;
+  width: 50%;
+}
+
+.btn-default {
+    color: #8C868E;
+    background-color: #F4F5F7;
+    border-color: #8C868E;
+}
+
+section.final {
+	padding-bottom: 0px;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #FF9900;
+}
+
+.copyright {
+	font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
