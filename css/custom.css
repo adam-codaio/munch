@@ -258,3 +258,8 @@ ul.social-buttons li a:active {
 .copyright {
 	font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.readme {
+  margin-bottom: 15px;
+  display:block;
+}
