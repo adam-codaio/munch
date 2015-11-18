@@ -67,7 +67,7 @@ header .intro-text .intro-heading {
 }
 
 .text-primary {
-  color: #FF9900;
+  color: #40BA91;
 }
 
 .timeline>li .timeline-image {
@@ -103,4 +103,26 @@ header .intro-text .intro-heading {
   font-weight: 400;
   font-size: 68px;
   line-height: 68px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+section h3.section-subheading {
+    font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.text-muted {
+    color: #8C868E;
 }
